@@ -4,46 +4,22 @@
 
 # Images to Text
 
-We're going to extract text-based meaning out of images here. If you're looking to make images from text, see my quick tutorial here: [🚧 Under Construction 🚧](https://github.com/atet/tti)
+We're going to extract text-based meaning out of images here in <u><b>less than 10 minutes</b></u>:
+
+- Downloading and deploying a standalone Python environment
+- Signing up for free access to Google AI tools
+- Code snippet to convert images to text
+
+*This tutorial was developed in Windows 10 and will likely work with some minor changes in Windows 11, MacOS, and Linux.*
+
+If you're looking to make images from text, see my quick tutorial here: [🚧 Under Construction 🚧](https://github.com/atet/tti)
 
 ----------------------------------------------------------------------------
 
-## Table of Contents
+## Standalone Python Environment
 
-* [0. Requirements](#0-requirements)
-* [1. Introduction](#1-introduction)
-* [2. Installation](#2-installation)
-* [3. Basic Examples](#3-basic-examples)
-* [4. Next Steps](#4-next-steps)
-
-### Supplemental
-
-* [Other Resources](#other-resources)
-* [Troubleshooting](#troubleshooting)
-
-> NOTE: Make sure there's spacing to allow Markdown to work with HTML elements
-
-<details open>
-<summary>Want to ruin the surprise?</summary>
-
-- Thing 1
-- Thing 2
-
-</details>
-
-<details>
-<summary>Want a surprise? (CLICK TO EXPAND)</summary>
-
-1. Thing A
-2. Thing B
-
-</details>
-
-----------------------------------------------------------------------------
-
-## 0. Requirements
-
-REQUIREMENTS.
+1. Set up Docker if you haven't already: [My Quick Linux+Docker for Windows Tutorial](https://github.com/atet/wsl)
+2. Download and deploy a Python development environment with JupyterLab: [My One-Step JupyterLab for Windows Tutorial](https://github.com/atet/python)
 
 [Back to Top](#table-of-contents)
 
