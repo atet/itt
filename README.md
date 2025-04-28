@@ -63,7 +63,7 @@ Successfully installed...
 
     [![.img/address.jpeg](.img/address.jpeg)](#nolink)
 
-8. Take note of this URL as you will paste it in the code snippet below where you see `<URL_IMAGE>`
+8. Take note of this URL as you will paste it in the code snippet below where you see `<URL_OF_IMAGE>`
 
 [Back to Top](#table-of-contents)
 
@@ -86,7 +86,7 @@ from google import genai
 from google.genai import types
 
 API_KEY =   "<YOUR_GOOGLE_API_KEY>"
-image_url = "<URL_IMAGE>"
+image_url = "<URL_OF_IMAGE>"
 
 image_bytes = requests.get(image_url, stream=True).content
 
