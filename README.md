@@ -18,8 +18,8 @@ If you're looking to make images from text, see my quick tutorial here: [🚧 Un
 
 ## Standalone Python Environment
 
-1. Set up Docker if you haven't already: [My Quick Linux+Docker for Windows Tutorial](https://github.com/atet/wsl)
-2. Download and deploy a Python development environment with JupyterLab: [My One-Step JupyterLab for Windows Tutorial](https://github.com/atet/python)
+1. Set up Docker in Windows Subsystem for Linux: [My Quick Linux+Docker for Windows Tutorial](https://github.com/atet/wsl)
+2. Download and deploy a Python development environment with JupyterLab in Docker: [My One-Step JupyterLab for Windows Tutorial](https://github.com/atet/python)
 
 [Back to Top](#table-of-contents)
 
@@ -111,7 +111,7 @@ response = client.models.generate_content(
 print(response.text)
 ```
 
-***And there you have it, all that in just a few minutes of learning how to convert images into text:***
+***And there you have it, all that in just a few minutes of learning how to convert images into clean text:***
 
 [![.img/itt_fig2_image_to_text.jpeg](.img/itt_fig2_image_to_text.jpeg)](#nolink)
 
@@ -121,12 +121,16 @@ print(response.text)
 
 ## Next Steps
 
+> Note that this image-to-text method leveraging large language models is **significantly better** than traditional optical character recognition algorithms that I've tried in Python and R.
+
 Now you can try some other images and ask for various things like:
 - Why is this comic strip funny?
 - Describe the Last Supper as Leonardo da Vinci.
 - What do you think happened to result in this picture?
 
     [![.img/itt_fig3_image_to_text.png](.img/itt_fig3_next_steps.png)](#nolink)
+
+If you're looking to make images from text, see my quick tutorial here: [🚧 Under Construction 🚧](https://github.com/atet/tti)
 
 [Back to Top](#table-of-contents)
 
@@ -147,7 +151,7 @@ Google `genai` Python library documentation | https://pypi.org/project/google-ge
 Issue | Solution
 --- | ---
 **"`API_KEY` is not defined?"** | Make sure to surround this text string in quotes, e.g., `"tHisISaDumMYapIKeY"`
-**"`url_image` is not defined?"** | Make sure to surround this text string in quotes, e.g., `"https://github.com/atet/itt/raw/main/.img/address.jpeg"`
+**"`image_url` is not defined?"** | Make sure to surround this text string in quotes, e.g., `"https://github.com/atet/itt/raw/main/.img/address.jpeg"`
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
 [Back to Top](#table-of-contents)
